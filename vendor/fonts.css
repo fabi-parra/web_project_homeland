@@ -10,3 +10,8 @@
   font-family: 'Inter black';
 }
 
+@font-face {
+  src: url(../vendor/fonts/Inter-SemiBold.woff2) format('woff2'),
+  url(../vendor/fonts/Inter-SemiBold.ttf) format('truetype');
+  font-family: 'Inter semi-bold';
+}
