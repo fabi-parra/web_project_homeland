@@ -1,8 +1,7 @@
-
 .photo-grid__container {
   max-width: 1187px;
   margin: auto;
-  padding: 8vw 3vw 0;
+  padding: 37px 16px 0;
   display: grid;
   gap: 16px;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -10,5 +9,10 @@
 
 .photo-grid__item {
   width: 100%;
+}
 
+@media screen and (min-width: 550px) {
+  .photo-grid__container {
+    padding: 64px 24px 0;
+  }
 }

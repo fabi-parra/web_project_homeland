@@ -12,8 +12,6 @@
 }
 
 .intro__paragraphs {
-  display: flex;
-  flex-direction: column;
   max-width: 720px;
 }
 
@@ -21,6 +19,11 @@
   font-size: 24px;
   line-height: 30px;
   margin: 2.8vw 0 0;
+}
+
+.intro__quote-container {
+  display: flex;
+  flex-direction: column;
 }
 
 .intro__quote-author {
@@ -33,7 +36,8 @@
 .intro__description {
   font-size: 16px;
   line-height: 1.5;
-  margin: 0;
+  margin: 20px 0 0;
+  text-align: justify;
 }
 
 @media screen and (min-width: 550px) {
@@ -46,13 +50,23 @@
     line-height: 58px;
   }
 
+  .intro__quote-container {
+    position: relative;
+  }
+
+  .intro__quote-author {
+    position: absolute;
+    right: 0;
+    bottom: -25px;
+  }
+
   .intro__description {
-    margin: 32px 0 0;
+    margin: 50px 0 0;
   }
 }
+
 @media screen and (min-width: 1024px) {
   .intro {
     padding: 91px 115px 0 148px;
   }
 }
-

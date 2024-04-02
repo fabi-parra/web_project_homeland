@@ -1,5 +1,5 @@
 .cover {
-  position: relative;
+  padding-top: 31px;
 }
 
 .cover__content {
@@ -9,11 +9,15 @@
   align-items: center;
   z-index: 1000;
   gap: 16px;
+  position: relative;
+  height: 254px;
+  max-width: 1184px;
+  margin: auto;
 }
 
 .cover__image {
   width: 100%;
-  height: 254px;
+  height: 100%;
   object-fit: cover;
   opacity: 0.7;
   position: absolute;
@@ -61,22 +65,30 @@
 }
 
 @media screen and (min-width:430px){
-
-  .cover__image {
+  .cover__content{
     height: 350px;
   }
 }
 
 @media screen and (min-width:544px){
-
-  .cover__image {
+  .cover__content {
     height: 500px;
+  }
+
+  .cover__title {
+    font-size: 72px;
+  }
+
+  .cover__paragraph {
+    max-width: 280px;
+    font-size: 18px;
+    line-height: 22px;
   }
 }
 
 @media screen and (min-width:768px){
 
-  .cover__image {
+  .cover__content {
     height: 746px;
   }
 }
