@@ -2,119 +2,10 @@
   padding: 31px 0 0;
 }
 
-.places__article {
-  display: flex;
-  flex-direction: column;
-  margin: auto;
-}
-
-.places__title {
-  font-family: "Inter black";
-  font-size: clamp(32px, 5.5vw, 72px);
-  max-width: 460px;
-  margin: 0;
-  margin-bottom: 30px;
-  padding: 31px 16px 0;
-}
-
-.places__subtitle {
-  font-size: 18px;
-  margin: 0;
-  line-height: 22px;
-  padding: 0 16px 0;
-}
-
-.places__subtitle_one {
-  font-size: 12px;
-  color: #aaa;
-  margin-bottom: 8px;
-}
-
-.places__paragraph-container {
-  margin: 10px auto;
-  width: 100%;
-}
-
-.places__paragraph {
-  font-size: clamp(1rem, 1.5vw, 1.5rem);
-  line-height: 1.6;
-  margin: 0;
-  padding: 0 16px 0;
-  text-align: justify;
-}
-
-.places__image {
-  width: 100%;
-  padding-top: 30px;
-}
-
-.places__button {
-  background-color: #0278fe;
-  border-radius: 4px;
-  width: 90%;
-  padding: 15px 0;
-  margin: auto;
-  font-family: "Inter semi-bold", "Arial", sans-serif;
-  color: #fff;
-  font-size: 14px;
-  text-decoration: none;
-  text-align: center;
-}
-
-.places__button:hover {
-  background-color: #0063d2;
-}
-
 @media screen and (min-width: 544px) {
   .places {
     padding: 75px 16px 0;
     margin: auto;
-  }
-
-  .places__article {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 22px;
-    max-width: 1000px;
-  }
-
-  .places__title {
-    margin: 0;
-    padding: 0;
-    align-self: center;
-  }
-
-  .places__subtitle-container {
-    align-self: end;
-    line-height: 1.6;
-  }
-
-  .places__subtitle {
-    max-width: 295px;
-    margin: 0;
-    padding: 0;
-  }
-
-  .places__paragraph-container {
-    grid-row: 2/5;
-    grid-column: 2;
-    margin: 0 0 30px;
-  }
-
-  .places__paragraph {
-    padding: 0;
-    text-align: start;
-  }
-
-  .places__image {
-    max-width: 460px;
-    padding: 0;
-  }
-
-  .places__button {
-    width: 100%;
-    max-width: 355px;
-    margin: 0;
   }
 }
 
@@ -123,50 +14,11 @@
     padding: 64px 24px 0;
     margin: auto;
   }
-
-  .places__paragraph-container {
-    margin: 0;
-  }
-  .places__paragraph {
-    margin-bottom: 25px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .places__article {
-    padding-top: 24px;
-  }
-
-  .places__button {
-    font-size: 18px;
-  }
 }
 
 @media screen and (min-width: 1024px) {
   .places {
     padding: 56px 0 0;
   }
-
-  .places__article {
-    row-gap: 49px;
-  }
-
-  .places__title_name_berea {
-    grid-column: 1/-1;
-    grid-row: 1;
-    max-width: 600px;
-  }
-
-  .places__subtitle-container_name_berea {
-    grid-column: 2;
-    grid-row: 1;
-  }
-
-  .places__subtitle {
-    max-width: 100%;
-  }
-
-  .places__paragraph {
-    font-size: 18px;
-  }
 }
+
