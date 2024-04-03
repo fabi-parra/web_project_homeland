@@ -2,11 +2,13 @@
 
 La página web "De patria a patria"es el cuarto proyecto del curso de Desarrollo Web de Tripleten. Es una página principalmente informativa que también entrega la opción de comprar obras de arte.
 
+# URL de la página: https://fabi-parra.github.io/web_project_homeland/
+
 ## Las principales secciones de la página son:
 
 1. Encabezado: con un logo y título, además de una introducción al tema.
 2. Muestra de fotos: grid de fotografías de diferentes ciudades.
-3. Sección de artículos: cinco artículos sobre las diferentes ciudades, con fotografía, título y texto descriptivo, más un botón que lleva a una página de compra. Cada artículo constituye un bloque independiente, por lo que sus estilos se declaran en una hoja de estilos independiente de la sección en la que están.
+3. Sección de artículos: cinco artículos sobre las diferentes ciudades, con fotografía, título y texto descriptivo, más un botón que lleva a una página de compra. Cada artículo constituye un bloque independiente, por lo que sus estilos se declaran por separado de la sección en la que están.
 4. Sección final: con un botón que lleva a una página de venta de entradas.
 
 ### Características del proyecto
